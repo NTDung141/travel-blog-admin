@@ -1,0 +1,210 @@
+main {
+    display: inline-block;
+}
+
+.left-panel {
+    background-color: white;
+}
+
+.right-panel {
+    width: 1270px;
+    padding: 30px;
+    background-color: #f2f5f5;
+}
+
+.inline-item {
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.right-align {
+    float: right;
+}
+
+.pd-15 {
+    padding: 15px;
+}
+
+.pd-l-3 {
+    padding-left: 5px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.icon {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.number {
+    text-align: center;
+}
+
+.title {
+    margin-left: auto;
+    text-align: center;
+}
+
+.new-user {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.new-user:hover {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition-duration: 0.25s;
+}
+
+.post {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.post:hover {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition-duration: 0.25s;
+}
+
+.reported-post {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.reported-post:hover {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition-duration: 0.25s;
+}
+
+.most-favorite-post {
+    margin-right: 30px;
+    margin-top: 50px;
+    padding: 20px 0px 20px 0px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.most-favorite-post-table {
+    padding: 0px 15px 0px 15px;
+}
+
+.table-item {
+    padding: 15px 0px 15px 0px;
+}
+
+.most-followed-user {
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 0px 20px 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.most-followed-user-table {
+    padding: 0px 15px 0px 15px;
+}
+
+.most-followed-user-title {
+    margin-top: 50px;
+}
+
+.most-followed-user-hr {
+    width: 30%;
+    border: solid 2px;
+}
+
+.most-followed-user-item {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    height: 110px;
+    margin-top: 30px;
+}
+
+.most-followed-user-item:hover {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition-duration: 0.25s;
+}
+
+.most-followed-user-item-avatar {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.most-followed-user-item-name {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.most-followed-user-item-number {
+    font-size: medium;
+}
+
+.post-list {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 25px 0px 25px 0px;
+}
+
+.list-name {
+    padding-left: 25px;
+}
+
+.web-name {
+    padding-left: 25px;
+    font-weight: 200;
+}
+
+.post-table {
+    padding: 0px 25px 0px 25px;
+}
+
+.pagination {
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.menu {
+    width: 250px;
+    position: fixed;
+}
+
+.content {
+    margin-left: 250px;
+    height: 900px;
+    background-color: #f2f5f5;
+    overflow-x: hidden;
+}
+
+.user-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: auto;
+}

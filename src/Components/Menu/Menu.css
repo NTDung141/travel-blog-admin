@@ -1,0 +1,44 @@
+.nav-item {
+    border-bottom: 1px solid #f2f5f5;
+}
+
+.nav-item:hover {
+    background-color: #f2f5f5;
+    transform: scale(1.05);
+    transition-duration: 0.25s;
+}
+
+.nav-link .active {
+    background-color: #f2f5f5;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.admin-info {
+    text-align: center;
+}
+
+.admin-avatar {
+    text-align: center;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.admin-name {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.active {
+    background-color: #f2f5f5;
+}
