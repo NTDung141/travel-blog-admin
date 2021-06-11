@@ -11,38 +11,44 @@ import ReactHtmlParser from "react-html-parser";
 const menu = [
     {
         name: "Dash Board",
+        icon: <i className="fas fa-chart-bar mr-6"></i>,
         to: "/dashboard",
         exact: true
     },
     {
         name: "Bài viết",
+        icon: <i className="fas fa-newspaper mr-6"></i>,
         to: "/posts",
         exact: true
     },
     {
         name: "Thể loại",
+        icon: <i className="fa fa-list-alt mr-6"></i>,
         to: "/categories",
         exact: true
     },
     {
         name: "Người dùng",
+        icon: <i className="fad fa-users mr-6"></i>,
         to: "/users",
         exact: true
     },
     {
         name: "Report",
+        icon: <i className="fas fa-exclamation-triangle mr-6"></i>,
         to: "/reports",
         exact: true
     }
 ]
 
-const MenuLink = ({ label, to, activeOnlyWhenExact }) => {
+const MenuLink = ({ icon, label, to, activeOnlyWhenExact }) => {
     return (
         <Route path={to} exact={activeOnlyWhenExact} children={({ match }) => {
             var active = match ? "nav-item active" : "nav-item";
             return (
                 <li className={active}>
                     <NavLink to={to} className="nav-link">
+                        {icon}
                         {label}
                     </NavLink>
                 </li>
@@ -56,7 +62,7 @@ const showMenu = (menu) => {
     if (menu.length > 0) {
         result = menu.map((item, index) => {
             return (
-                <MenuLink label={item.name} to={item.to} activeOnlyWhenExact={item.exact} />
+                <MenuLink icon={item.icon} label={item.name} to={item.to} activeOnlyWhenExact={item.exact} />
             )
         })
     }

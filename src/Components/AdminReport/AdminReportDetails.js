@@ -66,10 +66,10 @@ function AdminReportDetails(props) {
                                     <i className="far fa-check mr-5"></i>
                                     Đã giải quyết
                                 </button>
-                                <button className="btn btn-secondary">
+                                {/* <button className="btn btn-secondary">
                                     <i className="fal fa-eye-slash mr-5"></i>
                                     Ẩn
-                                </button>
+                                </button> */}
                             </div>
                         </div>
                         <div className="row">

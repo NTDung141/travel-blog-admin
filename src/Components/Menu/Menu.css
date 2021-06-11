@@ -42,3 +42,7 @@ a:hover {
 .active {
     background-color: #f2f5f5;
 }
+
+.mr-6 {
+    margin-right: 6px;
+}

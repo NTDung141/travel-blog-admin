@@ -1,6 +1,7 @@
 import '../AdminPage/AdminPage.css';
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import ReactHtmlParse from "react-html-parser";
 
 function AdminUser(props) {
     const { token } = props
@@ -70,9 +71,9 @@ function AdminUser(props) {
             <tr>
                 <th scope="row">{index + 1 + (pagination.page - 1) * pagination.size}</th>
                 <td className="">
-                    <div className="user-avatar" style={{ backgroundImage: `url(${user.avatarLink})` }}></div>
+                    <div className="user-avatar" style={{ backgroundImage: `url(${ReactHtmlParse(user.avatarLink)})` }}></div>
                 </td>
-                <td>{user.name}</td>
+                <td>{ReactHtmlParse(user.name)}</td>
                 <td>{user.email}</td>
                 <td className="text-center">{user.postCount}</td>
                 <td className="text-center">{user.commentOnOwnPostCount}</td>

@@ -7,7 +7,7 @@ import AdminReport from "../Components/AdminReport/AdminReport";
 import AdminReportDetails from "../Components/AdminReport/AdminReportDetails";
 import AdminUser from "../Components/AdminUser/AdminUser";
 
-const token = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsb3ZleWEyMjdAZ21haWwuY29tIiwiaWF0IjoxNjIzMDU0MjQzLCJleHAiOjE2MjMwNTQ4NDN9.j4EVOITphp6ml3HrQnODHP_TNVvU4WY9NfEmHYz3OVg";
+const token = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsb3ZleWEyMjdAZ21haWwuY29tIiwiaWF0IjoxNjIzMzk5Mjk2LCJleHAiOjE2MjMzOTk4OTZ9.FTU5wEi-1wO5JgYyBeCWFoM_2AnI7s8vuZ_RP6yI-64";
 
 
 const routes = [
